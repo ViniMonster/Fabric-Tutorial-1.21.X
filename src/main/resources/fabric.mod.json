@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "Este é um mod de testes feito para pura diversão e treinar java",
+	"authors": [
+		"ViniMonster!"
+	],
+	"contact": {
+		"homepage": "https://ViniMonster.net/",
+		"sources": "https://github.com/ViniMonster/Mods_Minecraft_Java/blob/main/tuturialmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vinicius.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.vinicius.tutorialmod.TutorialModDataGenerator"
+		],
+      "clien": [
+          "net.vinicius.tutorialmod.TutorialModClient"
+      ]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
