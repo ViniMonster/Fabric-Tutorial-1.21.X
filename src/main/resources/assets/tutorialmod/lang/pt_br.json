@@ -1,3 +1,7 @@
 {
-  "item.tutorialmod.pink_garnet": "Garnet Rosa"
+  "item.tutorialmod.pink_garnet": "Garnet Rosa",
+  "item.tutorialmod.raw_pink_garnet": "Garnet Rosa Bruta",
+
+  "block.tutorialmod.pink_garnet_mod": "Bloco de Garnet Rosa",
+  "block.tutorialmod.raw_pink_garnet_mod": "Minério de Garnet Rosa"
 }
