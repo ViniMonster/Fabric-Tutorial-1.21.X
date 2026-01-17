@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tutorialmod:pink_garnet"
+    },
+    "$": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " $ "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:pink_garnet_sword"
+  }
+}
