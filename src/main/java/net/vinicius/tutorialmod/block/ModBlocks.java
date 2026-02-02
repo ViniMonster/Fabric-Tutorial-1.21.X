@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.vinicius.tutorialmod.TutorialMod;
+import net.vinicius.tutorialmod.block.custom.MagicBlock;
 
 public class ModBlocks {
 
@@ -25,6 +26,23 @@ public class ModBlocks {
                     .strength(3f,3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(3f,3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(3f,3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(3f,3f).requiresTool()));
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlocksItem(name, block);
@@ -43,5 +61,12 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(ModBlocks.PINK_GARNET_ORE);
+            entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+        });
+
+
     }
 }

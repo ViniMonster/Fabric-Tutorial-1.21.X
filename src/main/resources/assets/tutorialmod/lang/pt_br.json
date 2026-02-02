@@ -3,9 +3,13 @@
   "item.tutorialmod.raw_pink_garnet": "Garnet Rosa Bruta",
   "item.tutorialmod.pink_garnet_sword": "Espada de Garnet Rosa",
   "item.tutorialmod.pink_garnet_pickaxe": "Picareta de Garnet Rosa",
+  "item.tutorialmod.chisel": "Chisel",
 
   "block.tutorialmod.pink_garnet_mod": "Bloco de Garnet Rosa",
-  "block.tutorialmod.raw_pink_garnet_mod": "Minério de Garnet Rosa",
+  "block.tutorialmod.raw_pink_garnet_mod": "Bloco de Garnet Rosa Bruta",
+  "block.tutorialmod.pink_garnet_ore": "Minério de Garnet Rosa",
+  "block.tutorialmod.deepslate_pink_garnet_ore": "Minério de Deepslate de Garnet Rosa",
+  "block.tutorialmod.magic_block": "Bloco Mágico",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Itens de Pink Garnet",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Blocos de Pink Garnet"

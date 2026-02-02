@@ -8,11 +8,15 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.vinicius.tutorialmod.TutorialMod;
+import net.vinicius.tutorialmod.item.custom.ChiselItem;
 
 public class ModItens {
 
     public static final Item PINK_GARNET = registerItem("pink_garnet",new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+
+    public static final Item CHISEL =  registerItem("chisel",new ChiselItem(new Item.Settings().maxDamage(32)));
+
     public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",new Item(new Item.Settings()));
     public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",new Item(new Item.Settings()));
 
