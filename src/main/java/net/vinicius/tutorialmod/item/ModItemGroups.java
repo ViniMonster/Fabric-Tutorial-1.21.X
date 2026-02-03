@@ -23,6 +23,9 @@ public class ModItemGroups {
                         entries.add(ModItens.PINK_GARNET_PICKAXE);
                         entries.add(ModItens.CHISEL);
 
+                        entries.add(ModItens.CAULIFLOWER);
+                        entries.add(ModItens.DIVINE_POTION);
+
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_ORE);

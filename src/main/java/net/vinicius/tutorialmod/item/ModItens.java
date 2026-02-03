@@ -2,13 +2,13 @@ package net.vinicius.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.vinicius.tutorialmod.TutorialMod;
 import net.vinicius.tutorialmod.item.custom.ChiselItem;
+import net.vinicius.tutorialmod.item.custom.DivinePotion;
 
 public class ModItens {
 
@@ -16,6 +16,9 @@ public class ModItens {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
     public static final Item CHISEL =  registerItem("chisel",new ChiselItem(new Item.Settings().maxDamage(32)));
+
+    public static final Item CAULIFLOWER =  registerItem("cauliflower",new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item DIVINE_POTION =  registerItem("divine_potion",new DivinePotion(new Item.Settings().food(ModFoodComponents.DIVINE_POTION).maxCount(1)));
 
     public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",new Item(new Item.Settings()));
     public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",new Item(new Item.Settings()));
