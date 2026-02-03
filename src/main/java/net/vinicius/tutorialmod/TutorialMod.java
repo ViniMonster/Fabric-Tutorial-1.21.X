@@ -2,7 +2,9 @@ package net.vinicius.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.vinicius.tutorialmod.block.ModBlocks;
+import net.vinicius.tutorialmod.fuel.ModFuels;
 import net.vinicius.tutorialmod.item.ModItemGroups;
 import net.vinicius.tutorialmod.item.ModItens;
 import org.slf4j.Logger;
@@ -19,5 +21,6 @@ public class TutorialMod implements ModInitializer {
 
         ModItens.registerModItems();
         ModBlocks.registerModBlocks();
+        ModFuels.registerModFuels();
 	}
 }

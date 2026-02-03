@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItens.PINK_GARNET_PICKAXE);
                         entries.add(ModItens.CHISEL);
 
+                        entries.add(ModItens.STARLIGHT_ASHES);
+
                         entries.add(ModItens.CAULIFLOWER);
                         entries.add(ModItens.DIVINE_POTION);
 
