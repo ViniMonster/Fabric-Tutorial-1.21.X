@@ -1,11 +1,12 @@
 package net.vinicius.tutorialmod.item.custom;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.UseAction;
 
-public class DivinePotion extends Item {
+public class DrinkItem extends Item {
 
-    public DivinePotion(Settings settings) {
+    public DrinkItem(Settings settings) {
         super(settings);
     }
 
